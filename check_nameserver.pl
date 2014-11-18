@@ -43,7 +43,6 @@ if ($domain eq '' && $nameserver_list eq '') {
         exit 0
     } else {
         $error .= "does not match nameserver.";
-
         printf "Critical - $error\n";
         exit 2;
     }
